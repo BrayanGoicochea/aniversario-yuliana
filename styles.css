@@ -1006,3 +1006,75 @@ body {
     transform: scale(1.02);
     box-shadow: 0 15px 50px rgba(229, 184, 197, 0.6);
 }
+/* ==========================================
+   SCROLLBAR PERSONALIZADO - CASI INVISIBLE
+   ========================================== */
+
+/* Scrollbar para contenido de los puntos */
+.content-inner {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 70vh;
+    /* Altura máxima antes de hacer scroll */
+}
+
+/* Para navegadores WebKit (Chrome, Safari, Edge) */
+.content-inner::-webkit-scrollbar {
+    width: 4px;
+    /* Ancho muy delgado */
+}
+
+.content-inner::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    /* Casi invisible */
+    border-radius: 10px;
+}
+
+.content-inner::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
+    /* Gris muy claro */
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.content-inner::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.25);
+    /* Un poco más visible al hover */
+}
+
+/* Para Firefox */
+.content-inner {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.05);
+}
+
+/* Scrollbar para pantalla final */
+.final-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 85vh;
+}
+
+.final-content::-webkit-scrollbar {
+    width: 4px;
+}
+
+.final-content::-webkit-scrollbar-track {
+    background: rgba(255, 192, 203, 0.1);
+    border-radius: 10px;
+}
+
+.final-content::-webkit-scrollbar-thumb {
+    background: rgba(229, 184, 197, 0.3);
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.final-content::-webkit-scrollbar-thumb:hover {
+    background: rgba(229, 184, 197, 0.5);
+}
+
+.final-content {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(229, 184, 197, 0.3) rgba(255, 192, 203, 0.1);
+}
