@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emir y Yuliana - 1er Año</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Pantalla Inicial -->
+    <div id="initial-screen" class="screen active">
+        <div class="initial-content">
+            <div class="love-icon">💜</div>
+            <h1 class="couple-names">Emir y Yuliana</h1>
+            <div class="anniversary-year">1er año</div>
+            <button id="start-btn" class="start-button">Comenzar</button>
+            <div class="hearts-animation">
+                <span class="heart">💜</span>
+                <span class="heart">💜</span>
+                <span class="heart">💜</span>
+                <span class="heart">💜</span>
+                <span class="heart">💜</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Línea de Tiempo -->
+    <div id="timeline-screen" class="screen">
+        <div class="timeline-container">
+            <!-- Línea de conexión continua -->
+            <div class="timeline-line"></div>
+
+            <!-- Punto 1 -->
+            <div class="timeline-point active" data-point="1">
+                <div class="point-line"></div>
+                <div class="point-marker">
+                    <div class="point-dot"></div>
+                </div>
+                <div class="point-content">
+                    <h2 class="point-title">Título del Momento 1</h2>
+                    <div class="image-container">
+                        <img src="IMAGENES/imagen1.jpeg" alt="Momento 1" class="timeline-image">
+                    </div>
+                    <p class="point-text">
+                        Este es el texto del primer momento. Aquí podrás escribir tus recuerdos, pensamientos y
+                        sentimientos sobre este momento especial. Puedes incluir detalles hermosos que hagan este
+                        momento inolvidable. Cada línea cuenta una parte de nuestra historia juntos.
+                    </p>
+                    <button class="verse-btn">Click aqui</button>
+                    <p class="bible-verse hidden">"El amor es paciente, es bondadoso. El amor no es envidioso ni
+                        jactancioso ni orgulloso." - 1 Corintios 13:4</p>
+                </div>
+            </div>
+
+            <!-- Punto 2 -->
+            <div class="timeline-point" data-point="2">
+                <div class="point-line"></div>
+                <div class="point-marker">
+                    <div class="point-dot"></div>
+                </div>
+                <div class="point-content">
+                    <h2 class="point-title">Título del Momento 2</h2>
+                    <div class="image-container">
+                        <img src="IMAGENES/imagen2.jpeg" alt="Momento 2" class="timeline-image">
+                    </div>
+                    <p class="point-text">
+                        Este es el texto del segundo momento. Aquí podrás escribir tus recuerdos, pensamientos y
+                        sentimientos sobre este momento especial. Puedes incluir detalles hermosos que hagan este
+                        momento inolvidable. Cada línea cuenta una parte de nuestra historia juntos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Punto 3 -->
+            <div class="timeline-point" data-point="3">
+                <div class="point-line"></div>
+                <div class="point-marker">
+                    <div class="point-dot"></div>
+                </div>
+                <div class="point-content">
+                    <h2 class="point-title">Título del Momento 3</h2>
+                    <div class="image-container">
+                        <img src="IMAGENES/imagen3.jpeg" alt="Momento 3" class="timeline-image">
+                    </div>
+                    <p class="point-text">
+                        Este es el texto del tercer momento. Aquí podrás escribir tus recuerdos, pensamientos y
+                        sentimientos sobre este momento especial. Puedes incluir detalles hermosos que hagan este
+                        momento inolvidable. Cada línea cuenta una parte de nuestra historia juntos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Punto 4 -->
+            <div class="timeline-point" data-point="4">
+                <div class="point-line"></div>
+                <div class="point-marker">
+                    <div class="point-dot"></div>
+                </div>
+                <div class="point-content">
+                    <h2 class="point-title">Título del Momento 4</h2>
+                    <div class="image-container">
+                        <img src="IMAGENES/imagen4.jpeg" alt="Momento 4" class="timeline-image">
+                    </div>
+                    <p class="point-text">
+                        Este es el texto del cuarto momento. Aquí podrás escribir tus recuerdos, pensamientos y
+                        sentimientos sobre este momento especial. Puedes incluir detalles hermosos que hagan este
+                        momento inolvidable. Cada línea cuenta una parte de nuestra historia juntos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Punto 5 -->
+            <div class="timeline-point" data-point="5">
+                <div class="point-line"></div>
+                <div class="point-marker">
+                    <div class="point-dot"></div>
+                </div>
+                <div class="point-content">
+                    <h2 class="point-title">Título del Momento 5</h2>
+                    <div class="image-container">
+                        <img src="IMAGENES/imagen5.jpeg" alt="Momento 5" class="timeline-image">
+                    </div>
+                    <p class="point-text">
+                        Este es el texto del quinto momento. Aquí podrás escribir tus recuerdos, pensamientos y
+                        sentimientos sobre este momento especial. Puedes incluir detalles hermosos que hagan este
+                        momento inolvidable. Cada línea cuenta una parte de nuestra historia juntos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Punto 6 -->
+            <div class="timeline-point" data-point="6">
+                <div class="point-line"></div>
+                <div class="point-marker">
+                    <div class="point-dot"></div>
+                </div>
+                <div class="point-content">
+                    <h2 class="point-title">Título del Momento 6</h2>
+                    <div class="image-container">
+                        <img src="IMAGENES/imagen6.jpeg" alt="Momento 6" class="timeline-image">
+                    </div>
+                    <p class="point-text">
+                        Este es el texto del sexto momento. Aquí podrás escribir tus recuerdos, pensamientos y
+                        sentimientos sobre este momento especial. Puedes incluir detalles hermosos que hagan este
+                        momento inolvidable. Cada línea cuenta una parte de nuestra historia juntos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Punto 7 -->
+            <div class="timeline-point" data-point="7">
+                <div class="point-line"></div>
+                <div class="point-marker">
+                    <div class="point-dot"></div>
+                </div>
+                <div class="point-content">
+                    <h2 class="point-title">Título del Momento 7</h2>
+                    <div class="image-container">
+                        <img src="IMAGENES/imagen7.jpeg" alt="Momento 7" class="timeline-image">
+                    </div>
+                    <p class="point-text">
+                        Este es el texto del séptimo momento. Aquí podrás escribir tus recuerdos, pensamientos y
+                        sentimientos sobre este momento especial. Puedes incluir detalles hermosos que hagan este
+                        momento inolvidable. Cada línea cuenta una parte de nuestra historia juntos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Punto 8 -->
+            <div class="timeline-point" data-point="8">
+                <div class="point-line"></div>
+                <div class="point-marker">
+                    <div class="point-dot"></div>
+                </div>
+                <div class="point-content">
+                    <h2 class="point-title">Título del Momento 8</h2>
+                    <div class="image-container">
+                        <img src="IMAGENES/imagen8.jpeg" alt="Momento 8" class="timeline-image">
+                    </div>
+                    <p class="point-text">
+                        Este es el texto del octavo momento. Aquí podrás escribir tus recuerdos, pensamientos y
+                        sentimientos sobre este momento especial. Puedes incluir detalles hermosos que hagan este
+                        momento inolvidable. Cada línea cuenta una parte de nuestra historia juntos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Punto 9 -->
+            <div class="timeline-point" data-point="9">
+                <div class="point-line"></div>
+                <div class="point-marker">
+                    <div class="point-dot"></div>
+                </div>
+                <div class="point-content">
+                    <h2 class="point-title">Título del Momento 9</h2>
+                    <div class="image-container">
+                        <img src="IMAGENES/imagen9.jpeg" alt="Momento 9" class="timeline-image">
+                    </div>
+                    <p class="point-text">
+                        Este es el texto del noveno momento. Aquí podrás escribir tus recuerdos, pensamientos y
+                        sentimientos sobre este momento especial. Puedes incluir detalles hermosos que hagan este
+                        momento inolvidable. Cada línea cuenta una parte de nuestra historia juntos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Punto 10 -->
+            <div class="timeline-point" data-point="10">
+                <div class="point-line"></div>
+                <div class="point-marker">
+                    <div class="point-dot"></div>
+                </div>
+                <div class="point-content">
+                    <h2 class="point-title">Título del Momento 10</h2>
+                    <div class="image-container">
+                        <img src="IMAGENES/imagen10.jpeg" alt="Momento 10" class="timeline-image">
+                    </div>
+                    <p class="point-text">
+                        Este es el texto del décimo momento. Aquí podrás escribir tus recuerdos, pensamientos y
+                        sentimientos sobre este momento especial. Puedes incluir detalles hermosos que hagan este
+                        momento inolvidable. Cada línea cuenta una parte de nuestra historia juntos.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navegación -->
+        <div class="navigation">
+            <button id="prev-btn" class="nav-button" disabled>
+                <span class="arrow">←</span> Anterior
+            </button>
+            <div class="progress-dots">
+                <span class="dot active" data-point="1"></span>
+                <span class="dot" data-point="2"></span>
+                <span class="dot" data-point="3"></span>
+                <span class="dot" data-point="4"></span>
+                <span class="dot" data-point="5"></span>
+                <span class="dot" data-point="6"></span>
+                <span class="dot" data-point="7"></span>
+                <span class="dot" data-point="8"></span>
+                <span class="dot" data-point="9"></span>
+                <span class="dot" data-point="10"></span>
+            </div>
+            <button id="next-btn" class="nav-button">
+                Siguiente <span class="arrow">→</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
